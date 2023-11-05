@@ -1,0 +1,5 @@
+require(... .. ".better-resize")
+require(... .. ".savefloats")
+require(... .. ".lock-screen")
+require(... .. ".exit-screen")
+require(... .. ".nm-agent")

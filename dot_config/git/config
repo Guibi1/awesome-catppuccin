@@ -1,0 +1,16 @@
+[core]
+	editor = code --wait
+[user]
+	email = laurent@guibi.ca
+	name = Laurent Stéphenne
+	signingkey = DF268BBE34C4310C2388AC20ABF9FD2D33126483
+[init]
+	defaultBranch = main
+[commit]
+	gpgsign = true
+[credential "https://github.com"]
+	helper = 
+	helper = !/usr/bin/gh auth git-credential
+[credential "https://gist.github.com"]
+	helper = 
+	helper = !/usr/bin/gh auth git-credential
